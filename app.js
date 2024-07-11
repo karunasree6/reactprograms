@@ -41,3 +41,10 @@ export default function BtnEvent() {
     );
    }
    function Button({ onClick, children }) {
+     return (  
+
+     &lt;button onClick={onClick}&gt;
+      {children}
+     &lt;/button&gt;
+    );
+   }
